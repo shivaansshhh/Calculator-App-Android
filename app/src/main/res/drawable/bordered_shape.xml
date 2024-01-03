@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background shape with rounded corners -->
+    <item>
+        <shape>
+            <corners android:radius="16dp" /> <!-- Adjust the radius to control the amount of rounding -->
+            <solid android:color="#00000000" /> <!-- Transparent background color -->
+            <stroke
+                android:width="2px"  />        <!-- Border width -->
+            android:color="#717377" />   <!-- Border color -->
+        </shape>
+    </item>
+
+    <!-- Shadow -->
+    <item android:top="2px">
+        <shape>
+            <corners android:radius="16dp" /> <!-- Match the radius of the background corners -->
+            <solid android:color="#00FFFFFF" /> <!-- Background color (to cast a shadow) -->
+        </shape>
+    </item>
+</layer-list>
